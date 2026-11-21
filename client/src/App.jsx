@@ -7,7 +7,7 @@ import BookmarksDrawer from "./components/BookmarksDrawer";
 import Footer from "./components/Footer";
 import { Newspaper, AlertCircle } from "lucide-react";
 
-const API_BASE = "http://localhost:5050/api";
+const API_BASE = import.meta.env.VITE_API_BASE;
 
 export default function App() {
   const [articles, setArticles] = useState([]);
