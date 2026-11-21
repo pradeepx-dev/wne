@@ -1,0 +1,20 @@
+{
+  "name": "wne-server",
+  "version": "1.0.0",
+  "description": "Backend API for WNE - AI News Aggregator Platform",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "groq-sdk": "^0.15.0",
+    "rss-parser": "^3.13.0"
+  }
+}
